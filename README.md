@@ -284,15 +284,9 @@ NEXT_PUBLIC_API_URL=https://api.seu-dominio.com
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 👤 Autor
 
-**João Pedro** - [GitHub](https://github.com/seu-usuario)
+**João Pedro** - [GitHub](https://github.com/raidenario)
 
 ---
 
