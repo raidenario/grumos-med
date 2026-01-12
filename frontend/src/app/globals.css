@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #00bfa5;
+  --primary-dark: #009688;
+  --secondary: #00bcd4;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --bg-light: #f9fafb;
+  --gradient-start: #00bfa5;
+  --gradient-end: #00bcd4;
+  --gradient-primary: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+}
+
+.bg-gradient-primary {
+  background: var(--gradient-primary);
+}
+
+.text-gradient-primary {
+  background: var(--gradient-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Custom Container utility that allows content to breathe */
+.container-custom {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-custom {
+    max-width: 640px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-custom {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-custom {
+    max-width: 1024px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-custom {
+    max-width: 1280px;
+  }
+}
